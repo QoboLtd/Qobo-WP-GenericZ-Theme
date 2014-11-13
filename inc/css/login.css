@@ -1,0 +1,28 @@
+.login h1 {
+    background: none repeat scroll 0 0 #fff;
+}
+
+.login h1 a {
+    margin-bottom: 0;
+    margin: 0;
+}
+
+.login form {
+    margin-top: 0;
+    box-shadow: none;
+}
+
+.login #nav {
+    background: none repeat scroll 0 0 #fff;
+    margin-top: 0;
+}
+
+.login #backtoblog {
+    background: none repeat scroll 0 0 #fff;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.interim-login #login_error, .interim-login.login .message {
+    margin: 0;
+}
