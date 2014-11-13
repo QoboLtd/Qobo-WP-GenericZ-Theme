@@ -1,0 +1,57 @@
+/*
+Theme Name:   Bootstrap Theme by Qobo
+Text Domain:  qobo-bootstrap-one
+*/
+.widget-title, .entry-title, .comments-title, .comment-reply-title {
+    margin: 0 0 15px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #DDDDDD;
+}
+.navbar-header .navbar-brand.qbbs-navbar-brand {
+    display: block;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.qbbs-carousel-gallery ol {
+    bottom:0;
+    margin-bottom:0;
+}
+.qbbs-carousel-gallery ol.carousel-indicators li {
+    border: 1px solid #3071A9;
+}
+.qbbs-carousel-gallery ol.carousel-indicators li.active{
+    background-color:#3071A9;
+}
+.qbbs-carousel-gallery .carousel-inner ul{
+    text-align:center;
+    padding:10px;
+}
+.qbbs-carousel-gallery .carousel-control{
+    width:1%;
+    min-width:25px;
+    background-image:none;
+    color:#3071A9;
+}
+.qbbs-carousel-gallery .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+    left: 25%;
+}
+.qbbs-carousel-gallery .carousel-control .icon-prev, .carousel-control .glyphicon-chevron-right {
+    right: 25%;
+}
+
+.srp-widget-container .srp-widget-singlepost {
+    border-bottom: 1px solid #DEDEDE;
+}
+
+#top-link-block.affix-top {
+    position: absolute;
+    bottom: -82px;
+    right: 10px;
+}
+
+#top-link-block.affix {
+    position: fixed;
+    bottom: 18px;
+    right: 10px;
+}
