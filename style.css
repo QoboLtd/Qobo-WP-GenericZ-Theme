@@ -40,6 +40,13 @@ Text Domain:  qobo-bootstrap-one
     right: 25%;
 }
 
+img.thumbnail {
+    height:200px;
+    width:auto;
+    overflow:hidden;
+    border: none;
+}
+
 .srp-widget-container .srp-widget-singlepost {
     border-bottom: 1px solid #DEDEDE;
 }

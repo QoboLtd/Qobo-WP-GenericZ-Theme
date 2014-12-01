@@ -2,6 +2,9 @@
 //Enable 'Featured Image'
 add_theme_support( 'post-thumbnails' );
 
+//Enable shortcodes in widgets
+add_filter('widget_text', 'do_shortcode');
+
 /**
  * Load custom nav walker
  */
