@@ -40,11 +40,21 @@ Text Domain:  qobo-bootstrap-one
     right: 25%;
 }
 
-img.thumbnail {
-    height:200px;
-    width:auto;
+div.thumbnail .thumbnail {
     overflow:hidden;
     border: none;
+}
+div.thumbnail thumbnail:not(.modal-thumbnail),
+div.thumbnail span.thumbnail {
+    height:200px;
+    width:auto;
+}
+div.thumbnail span.thumbnail {
+    text-align: center;
+    padding-top: 86px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #F8F8F8;
 }
 
 .srp-widget-container .srp-widget-singlepost {

@@ -20,19 +20,11 @@ add_action('login_enqueue_scripts', 'qbbson_login_stylesheet');
 function qbbson_login_stylesheet_head() {
     echo '<style type="text/css">
         body.login {
-          background-image: url(' . get_template_directory_uri() . '/inc/images/login_bg.jpg) !important;
+          background-image: url(' . get_template_directory_uri() . '/images/login_bg.jpg) !important;
         }
       </style>';
 }
 add_action('login_head', 'qbbson_login_stylesheet_head');
-
-/**
- * Return header logo URL
- *
- */
-function qbbson_get_headerlogo_url() {
-  return get_template_directory_uri().'/inc/images/header_logo.png';
-}
 
 /**
  * Return style CSS URL

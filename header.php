@@ -12,9 +12,15 @@
  *
  */
 function qbbson_get_favicon_url() {
-    $img_url = get_template_directory_uri().'/inc/images/favicon.ico';
-  
-    return $img_url;
+    return get_stylesheet_directory_uri().'/images/favicon.ico';
+}
+
+/**
+ * Return header logo URL
+ *
+ */
+function qbbson_get_headerlogo_url() {
+    return get_stylesheet_directory_uri().'/images/header_logo.png';
 }
 
 ?><!DOCTYPE html>
