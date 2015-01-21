@@ -78,7 +78,7 @@ function qbbson_get_headerlogo_url() {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand qbbs-navbar-brand" href="<?php echo get_site_url(); ?>"><img src="<?php echo qbbson_get_headerlogo_url(); ?>"/></a>
+          <a class="navbar-brand qbbs-navbar-brand" href="<?php echo get_home_url(); ?>"><img src="<?php echo qbbson_get_headerlogo_url(); ?>"/></a>
         </div>
   
         <!-- List of links -->
